@@ -60,6 +60,17 @@
       box-shadow: 0 12px 40px rgba(0,0,0,0.15);
     }
 
+    .demo {
+      display: flex;
+      justify-content: center;
+      padding: 48px 24px 0;
+    }
+    .demo video {
+      width: 260px;
+      border-radius: 36px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+    }
+
     footer {
       text-align: center;
       padding: 32px 24px;
@@ -80,6 +91,12 @@
     <img src="appstore-badge.svg" alt="Download on the App Store" style="width:540px;display:block;" />
   </a>
 </header>
+
+<div class="demo">
+  <video controls playsinline preload="metadata">
+    <source src="demo.mp4" type="video/mp4" />
+  </video>
+</div>
 
 <div class="screenshots">
   <img src="screen1.png" alt="SyncWeightBit main screen" />
